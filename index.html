@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/spyware_29175.png" alt="logo" width="100px">
+    </header>
+    <main>
+        <section class="section-1">
+
+            <textarea id="inputText" class="area" placeholder="Ingrese el texto aquí..."></textarea>
+
+            <div class="container-btn">
+                <button id="btn-encry" class="button-3" role="button" onclick="encriptarTexto()">
+                    Encriptar
+                </button>
+                <button id="bt-descry" class="button-3" role="button" onclick="desencriptarTexto()">
+                    desencriptar
+                </button>
+            </div>
+        </section>
+
+        <section class="section-2">
+
+            <div class="container-img">
+                <img src="images/not-found-2.jpg" alt="img no encontrado" width="500px">
+            </div>
+
+            <div class="container-txt-no-found">
+                <h3>Ningún mensaje encontrado</h3>
+            </div>
+
+            <div class="container-txt">
+                <p>
+                    Ingresa el texto que deseas encriptar o desencriptar
+                </p>
+            </div>
+
+            <div class="txt-result">
+                <h3>Mensaje encriptado:</h3>
+                <p id="txt-result"></p>
+            </div>
+            <div class="btn-copy-txt">
+                <button id="btn-copy" class="button-3" role="button" onclick="copiarTexto()"> Copiar</button>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        © Copyright 2024 Alura | Términos de uso | Política de cookies | Aviso legal | Política de privacidad
+    </footer>
+</body>
+
+</html>
